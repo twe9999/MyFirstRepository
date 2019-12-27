@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="bitbucket"
-           fetch="https://bitbucket.org" />
+  <remote  name="samTest"
+           fetch="https://github.com/twe9999" />
 
   <default revision="refs/heads/master"
-           remote="bitbucket"
+           remote="samTest"
            sync-j="4" />
 
-  <project name="miniat/0x1-miniat" remote="bitbucket" path="vm"/>
-  <project name="miniat/0x1-assembler" remote="bitbucket" path="assembler"/>
-  <project name="miniat/0x1-debugger" remote="bitbucket" path="debugger"/>
-  <project name="miniat/0x1-examples" remote="bitbucket" path="examples"/>
-  <project name="miniat/0x1-examples-asms-bins" remote="bitbucket" path="asms"/>
-
+  <project name="android-open-project" remote="samTest" path="androidOpenProject"/>
 </manifest>
